@@ -1,4 +1,3 @@
-
 /* General styles */
 body {
     max-width: 500px;
@@ -347,31 +346,55 @@ th {
 
 /* Work */
 
-.work__img {
-    max-width: 215px;
-    border-radius: 500px;
+
+ 
+.work__part__1, .work__part__2, .work__part__3, .work__part__4  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work__part__image__1 {
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.work__part__text__1 {
+    float: right;
+    font-size: 15px;
+    padding: 5px;
+    border: #fceb05 solid 2px;
+}
+.work__part__image__2 {
+    width: 120px;
+ border-radius: 50%;
+ float: right;
+ margin-left: 20px;
+}
+.work__part__text__2 {
+    float: left;
+    font-size: 15px;
+}
+.work__part__image__3 {
+    width: 120px;
+     border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.work__part__text__3 {
+    font-size: 15px;
+}
+.work__part__image__4 {
+    width: 110px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 20px;
+}
+.work__part__text__4 {
+    font-size: 15px;
+    float: left;
 }
 
-.work {
-    text-align: center;
-}
-.work__title {
-    display: flex;
-    margin-top: -150px; 
-    font-size: 50px;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    
-}
-.work__text {
-    font-weight: 400;
-    font-size: 19px;
-    border: #fceb05 2px solid;
-    box-sizing: border-box;
-    padding: 5px;
-}
 /* Work */
 
 /* Best side */
